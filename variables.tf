@@ -26,11 +26,6 @@ description = "aws subnet name"
  type        = string
 }
 
-variable "notifications" {
-  description = "Email addresses" 
-  type        = list(string)
-}
-
 variable "authentication_key" {
   description = "AWS ID"
   type        = string
